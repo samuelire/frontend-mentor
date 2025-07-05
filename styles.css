@@ -1,0 +1,52 @@
+img{
+    width: 100%;
+    border-radius: 10px;
+  }
+  h3{
+    
+  }
+  body{
+    width: 100%;
+    height: 230vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(251, 237, 220);
+  }
+  #flexebl{
+    text-align: center;
+
+  }
+  main{
+    background-color: white;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+
+  }
+  .flex-part{
+    width: 80%;
+    display: flex;
+    justify-content:space-around;
+  }
+  h3{
+    color: hsl(34, 70%, 45%);
+  }
+  .preparation{
+    margin-left: 5%;
+    background-color: hsl(340, 57%, 90%);
+  }
+  .preparation>h4{
+   color:  hsl(340, 57%, 65%);
+  }
+
+  .bold{
+    font-weight: bold;
+  }
+  .colour{
+    color: hsl(34, 79%, 42%);
+  }
+  li::marker{
+   color: hsl(34, 70%, 45%); 
+  }
